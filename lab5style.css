@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+img{
+    float:right;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+body{
+    background-color: #d6e8ff;
+    margin-left: 15px;
+}
+
+
+nav{
+    padding: 5px;
+    display:flex;
+    margin-left: 15px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+    
+.show {
+    display: block;
+}
