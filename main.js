@@ -18,7 +18,7 @@ function imageClick(){
         image.style.height = "403px"; // Original Height upon re-click
     }
 }
-
+//Hover functions over nav items
 function mouseOver(navItem) {
     navItem.style.backgroundColor = "lightblue";
 }
@@ -26,12 +26,12 @@ function mouseOver(navItem) {
 function mouseOut(navItem) {
     navItem.style.backgroundColor = "";
 }
-
+//Function to toggle and show dropdown list
 function ProjectDropdown()
 {
   document.getElementById("myDropdown").classList.toggle("show");
 }
-
+//Closing the dropdown if user clicks outside of it
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
