@@ -8,13 +8,15 @@ img{
 
 body{
     background-color: #d6e8ff;
+    margin-left: 15px;
 }
-
 
 
 nav{
     padding: 5px;
     display:flex;
+    margin-left: 15px;
+    
 }
 
 .dropdown {
