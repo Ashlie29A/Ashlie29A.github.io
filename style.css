@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 body{
@@ -72,4 +73,80 @@ a:hover {
 a:active {
     color:red;
     text-decoration:underline;
+=======
+@charset "utf-8";
+
+body{
+    background-color:#d6e8ff;
+}
+
+.headings{
+    font-family:'Franklin Gothic Medium', sans-serif;
+    margin-left: 15pt;    
+}
+
+h1{
+    font-family: Georgia, serif;
+    background-color:#005a96;
+    color: goldenrod;
+    padding: 1%;
+    margin-top:0pt;
+}
+
+h3{
+    color:#005a96
+}
+
+img{
+    float: right;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    margin-top: 25pt;
+    margin-bottom: 25pt;
+    margin-left: 45pt;
+    margin-right: 120pt;
+    background-color:beige;
+    color:mediumblue;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+div.links {
+    border:1px solid black;
+    margin:0px;
+    padding: 10px;
+    background-color: #b1baff;
+    display: inline-flex;
+    width: 48%;
+}
+
+div.desc{
+    border:1px solid black;
+    margin: 0px;
+    padding: 10px;
+    background-color: #b1baff;  
+    display: inline-flex;
+    width: 48%;    
+}
+
+a:link {
+    color:blue;
+    text-decoration:underline;
+}
+a:visited {
+    color:purple;
+    text-decoration:underline;
+}
+a:hover {
+    display:block;
+    background-color:lightgray;
+    text-decoration:underline;
+}
+a:active {
+    color:red;
+    text-decoration:underline;
+>>>>>>> da93235f6b4c518e01f02c2fd8ce860317aaf819
 }
