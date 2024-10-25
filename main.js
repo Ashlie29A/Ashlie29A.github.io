@@ -4,7 +4,7 @@ alert("Welcome!");
 // Button to prompt writing user's name on the homepage
 function buttonClick(){
     var userName = prompt("What's Your Name?");
-    var nameChange = document.getElementById("Greeting").textContent = "Hello " + userName + "! Welcome to my page.";
+    var nameChange = document.getElementById("Greeting").innerHTML = "Hello " + userName + "! Welcome to my page.";
 }
 
 // Expanding Image upon user click
