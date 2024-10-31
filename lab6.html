@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lab6style.css">
     <title>Lab 6 ITM780</title>
-    <script src="lab6main.js"></script>
-    <script src="formhandler.js"></script>
 </head>
 <body>
     <nav>
@@ -31,9 +29,9 @@
             <input type="text" id="name" name="name" value="John Doe"><br>
             <label for="email">Email Address</label><br>
             <input type="email" id="email" name="email" value="your.name@email.com"><br>
-            <label for="gender">Gender</label><br>
-            <input type="radio" id="femalegender" value = "Female" name="gender"> Female
-            <input type="radio" id="malegender" value = "Male" name="gender"> Male <br>
+            <label>Gender</label><br>
+            <input type="radio" id="female" value = "Female" name="gender"><label for="female">Female</label>
+            <input type="radio" id="male" value = "Male" name="gender"><label for="male">Male</label><br>
             <label for="favcolor">Favourite Colour</label><br>
             <input type="color" name="favcolor" value="#000000" id="colorpicker"><br>
             <label for="profession">Profession</label><br>
@@ -56,15 +54,18 @@
             <input type="checkbox" id="method2" name="method2" value="text">Text
             <input type="checkbox" id="method3" name="method3" value="email">Email
             <input type="checkbox" id="method4" name="method4" value="social">Social Media
-            </textarea>
+    
             
           </fieldset>
         
         <p>
-    <input type="submit" value="Submit"> 
+    <input type="submit" id="submit" value="Submit"> 
          <input type="reset">
        <input type="button" onclick="alert('Hello World!')" value="Click Me!"> 
         </p>
     </form>
+
+    <script src="lab6main.js"></script>
+    <script src="formhandler.js"></script>
 </body>
 </html>
