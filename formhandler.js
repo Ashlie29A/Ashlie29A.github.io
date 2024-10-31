@@ -1,5 +1,6 @@
 //Javascript document for handling the form functions   
 
+//function that will run once the event of form submission occurs
 function submitForm(event) {
 
  //Saving the name input data in the user's local storage
