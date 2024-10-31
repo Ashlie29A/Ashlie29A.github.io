@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab6style.css">
+    <title>Lab 6 ITM780</title>
+    <script src="lab6main.js"></script>
+    <script src="formhandler.js"></script>
+</head>
+<body>
+    <nav>
+        <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <a href="https://www.linkedin.com/in/ashlie-arora/">Linkedin</a></div>  |
+         <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <a href="https://ashlie29a.github.io/">Lab 2</a></div>  |
+        <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <a href="https://ashlie29a.github.io/lab3.html">Lab 3</a></div> | 
+        <div onmouseover="mouseOver(this)"onmouseout="mouseOut(this)">
+            <a href="https://ashlie29a.github.io/lab5.html">Lab 5</a></div> |
+        </div>
+    </nav>
+
+<h1 class = "heading">Contact Form</h1>
+
+
+    <form id="myform">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" value="John Doe"><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" value="your.name@email.com"><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="femalegender" value = "Female" name="gender"> Female
+            <input type="radio" id="malegender" value = "Male" name="gender"> Male <br>
+            <label for="favcolor">Favourite Colour</label><br>
+            <input type="color" name="favcolor" value="#000000" id="colorpicker"><br>
+            <label for="profession">Profession</label><br>
+            <select id="profession" name="profession">
+                <option value="professor">Professor</option>
+                <option value="recruiter">Recruiter</option>
+                <option value="hiringmgr">Hiring Manager</option>
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+              </select>
+
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Information</legend>
+            <label for="purpose">Purpose of Contact</label><br>
+            <textarea name="purpose" rows="10" cols="30">Please explain your reason for wanting to contact me.</textarea><br>
+            <label for="communication">Preferred Method(s) of Communication</label><br>
+            <input type="checkbox" id="method1" name="method1" value="call">Call
+            <input type="checkbox" id="method2" name="method2" value="text">Text
+            <input type="checkbox" id="method3" name="method3" value="email">Email
+            <input type="checkbox" id="method4" name="method4" value="social">Social Media
+            </textarea>
+            
+          </fieldset>
+        
+        <p>
+    <input type="submit" value="Submit"> 
+         <input type="reset">
+       <input type="button" onclick="alert('Hello World!')" value="Click Me!"> 
+        </p>
+    </form>
+</body>
+</html>
