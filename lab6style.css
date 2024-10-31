@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+nav{
+    padding: 5px;
+    display:flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color:lightblue;
+    
+}
+
+body{
+    background-color: beige;
+    margin-left: 15px;
+}
+
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    padding: 10px;
+
+}
