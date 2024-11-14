@@ -1,30 +1,36 @@
 @charset "utf-8";
 
+/* Styling for centering the video element */
 .video-container{
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
+/* Styling for allowing the URL in the citation to remain black and change to white if the site colour is changed*/
 a{
     color: inherit;
 }
 
+/* Styling for centering the video citation */
 .video-caption{
     display: flex;
     justify-content: center;
     font-style: italic;
 }
 
+/* Styling for centering the paragraph text */
 p{
     display: flex;
     justify-content: center;
 }
 
+/* Colouring the default background colour of the site as khaki*/
 body{
     background-color:khaki;
 }
 
+/* Styling for centering the 3 cat images */
 .image-gallery {
     display: flex;
     justify-content: center;
@@ -32,6 +38,7 @@ body{
     margin-top: 80px;
 }
 
+/* Styling for sizing, centering the individual images and spacing them out */
 .image-container {
     display: inline-block;
     width: 200px;
@@ -39,20 +46,24 @@ body{
     text-align: center;
 }
 
+/* Styling for centering the images and rounding individual corners, allowing default height */
 .image {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
+/* Making the image captions bold to distinguish them from alt text */
 .caption{
     font-weight: bold;
 }
 
+/* Providing space between the image captions and the alt text */
 .alt-text{
     margin-top: 20px;
 }
 
+/* Styling for centering the alt text button */
 .alt-button{
     display: flex;
     justify-content: center;
