@@ -12,8 +12,14 @@ a{
     color: inherit;
 }
 
-/* Styling for centering the video citation */
+/* Styling for centering the video caption */
 .video-caption{
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for centering the video citation */
+.video-citation{
     display: flex;
     justify-content: center;
     font-style: italic;
