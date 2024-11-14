@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Linking the Javacript file for functionality-->
     <script src="lab8script.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking the CSS file for styling-->
     <link rel="stylesheet" href="lab8style.css">
     <title>ITM780 Lab 8</title>
 </head>
 <body>
     <h1>ITM780 Lab 8 - Accessibility Page</h1>
     <p>This is a song linked from YouTube and it is one of my personal favourites to wind down and relax to!</p>
+    <!-- Video embed section-->
     <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kHoeNkyueEs?si=zaVeD8W-y0egN139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="video-caption">Video citation</div>
+    <!-- Caption to include citation for the video -->
+    <div class="video-caption">๕ぁ Sad Slowed Down ぁ๖. (2020, August 30). memo boy － facebook.com ( slowed ). YouTube. <a href="https://www.youtube.com/watch?v=kHoeNkyueEs">https://www.youtube.com/watch?v=kHoeNkyueEs</a></div>
     <h2>Click below to enlarge the text on the site:</h2>
+    <!-- Button that will increase the size for accessibility-->
     <button onclick="increaseSize()">Increase Text Size</button>
     <h2>Click below to change the colour of the background & text on the site:</h2>
+    <!-- Button that will change the colour of the site to be more accessible-->
     <button onclick="changeColours()">Change Colour Scheme</button>
+    <h2>Did you know I am an animal lover? I own two cats! See below for my two kitties; Simba & Cajoo!</h1>
     <div class="image-gallery">
         <div class="image-container">
-            <img src="staircase-cats.jpg" alt="Simba, brown tabby cat and Cajoo, white/brown tabby cat sitting on a wooden staircase facing the camera." width = 200px class="image">
-            <div class="caption">Staircase Cats</div>
+            <img src="staircase-cats.jpg" alt="Simba, brown tabby cat and Cajoo, white/brown tabby cat sitting on consecutive steps on a wooden staircase facing the camera." width = 200px class="image">
+            <div class="caption">Image of Simba & Cajoo on the staircase captured on Nov 9th, 2024 at the main staircase in my house. </div>
             <div class="alt-text" id="image1"></div>
         </div>
     
         <div class="image-container">
             <img src="windowsill-cats.jpg" alt="Cajoo, brown/white tabby cat sitting on a bamboo chair by a window facing the backyard and Simba, brown tabby cat sitting on the windowsill, both looking outside at the backyard." width = 200px class="image">
-            <div class="caption">Windowsill Cats</div>
+            <div class="caption">Image of Cajoo & Simba looking through the windowsill captured on October 3, 2024 at the dining room windowsill in my house.</div>
             <div class="alt-text" id="image2"></div>
         </div>
     
         <div class="image-container">
             <img src="cajoo-bed.jpg" alt="Cajoo, brown/white tabby cat laying sprawled out on a bed on his back with all paws stretched out." width = 200px class="image">
-            <div class="caption">Cat on Bed</div>
+            <div class="caption">Image of Cajoo on the bed captured on June 7, 2024 in the upstairs room of my house.</div>
             <div class="alt-text" id="image3"></div>
         </div>
     </div>
