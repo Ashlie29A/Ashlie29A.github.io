@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="lab8script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab8style.css">
+    <title>ITM780 Lab 8</title>
+</head>
+<body>
+    <h1>ITM780 Lab 8 - Accessibility Page</h1>
+    <p>This is a song linked from YouTube and it is one of my personal favourites to wind down and relax to!</p>
+    <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kHoeNkyueEs?si=zaVeD8W-y0egN139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video-caption">Video citation</div>
+    <h2>Click below to enlarge the text on the site:</h2>
+    <button onclick="increaseSize()">Increase Text Size</button>
+    <h2>Click below to change the colour of the background & text on the site:</h2>
+    <button onclick="changeColours()">Change Colour Scheme</button>
+    <div class="image-gallery">
+        <div class="image-container">
+            <img src="staircase-cats.jpg" alt="Simba, brown tabby cat and Cajoo, white/brown tabby cat sitting on a wooden staircase facing the camera." width = 200px class="image">
+            <div class="caption">Staircase Cats</div>
+            <div class="alt-text" id="image1"></div>
+        </div>
+    
+        <div class="image-container">
+            <img src="windowsill-cats.jpg" alt="Cajoo, brown/white tabby cat sitting on a bamboo chair by a window facing the backyard and Simba, brown tabby cat sitting on the windowsill, both looking outside at the backyard." width = 200px class="image">
+            <div class="caption">Windowsill Cats</div>
+            <div class="alt-text" id="image2"></div>
+        </div>
+    
+        <div class="image-container">
+            <img src="cajoo-bed.jpg" alt="Cajoo, brown/white tabby cat laying sprawled out on a bed on his back with all paws stretched out." width = 200px class="image">
+            <div class="caption">Cat on Bed</div>
+            <div class="alt-text" id="image3"></div>
+        </div>
+    </div>
+    
+    <div class="alt-button">
+        <button onclick="altText()">Display Alt Text</button>
+    </div>
+    <p>Click the button above to display the alternative text for each of the images!</p>
+</body>
+</html>
