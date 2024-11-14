@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.video-caption{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color:khaki;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption{
+    font-weight: bold;
+}
+
+  .alt-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
