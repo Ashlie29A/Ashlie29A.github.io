@@ -6,9 +6,14 @@
     margin: 20px;
 }
 
+a{
+    color: inherit;
+}
+
 .video-caption{
     display: flex;
     justify-content: center;
+    font-style: italic;
 }
 
 p{
@@ -25,7 +30,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    flex-wrap: wrap;
 }
 
 .image-container {
@@ -33,7 +37,6 @@ body{
     width: 200px;
     margin: 10px;
     text-align: center;
-    vertical-align: top;
 }
 
 .image {
@@ -46,7 +49,11 @@ body{
     font-weight: bold;
 }
 
-  .alt-button{
+.alt-text{
+    margin-top: 20px;
+}
+
+.alt-button{
     display: flex;
     justify-content: center;
     align-items: center;
